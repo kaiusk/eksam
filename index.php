@@ -18,7 +18,9 @@ get_header();
                                 <h2><?php the_title(); ?></h2>
                                 <div class="job"><?php echo get_post_meta(get_the_ID(), 'amet', true); ?></div>
                                 <?php the_content(); ?>
-                                <div class="contact"><?php echo get_post_meta(get_the_ID(), 'kontakt', true); ?></div>
+                                <div class="contact"><a
+                                            href="<?php echo get_post_meta(get_the_ID(), 'kontakt', true); ?>"><?php echo get_post_meta(get_the_ID(), 'kontakt', true); ?></a>
+                                </div>
                             </div>
                         </div>
                     <?php }
