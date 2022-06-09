@@ -26,7 +26,7 @@ if (!function_exists('exam_setup')) :
          * See: https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
          */
         add_theme_support('post-thumbnails');
-        set_post_thumbnail_size(825, 510, true);
+        set_post_thumbnail_size(400, 400, true);
 
     }
 endif;
