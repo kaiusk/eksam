@@ -12,6 +12,6 @@
 <body>
 <header>
     <h1><?php echo get_bloginfo('name'); ?></h1>
-    <!--h2 class="text-primary"><?php echo get_bloginfo('description'); ?></h2!-->
+    <h4><?php echo get_bloginfo('description'); ?></h4>
 </header>
-<main>
+
