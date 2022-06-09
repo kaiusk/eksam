@@ -1,52 +1,36 @@
-<!-- Wordpressi teema "HKVP"-->
-## Wordpressi teema "HKVP"
+<!-- Wordpressi teema "HKVP eksam"-->
+## Wordpressi teema "HKVP eksam"
 <p id="top"></p>
 
 ![](screenshot.png)
 
-TLÜ Haapsalu Kolledži veebiprogrammeerimse õppeiane raames loodud Wordpressi teema
-
-<p align="right">(<a href="#top">tagasi üles</a>)</p>
-
-
-### Loodud kasutades:
-
-* [PHP](https://php.net/)
-* [Unspalsh](https://unsplash.org/)
-* [Pe-icon-7-stroke](https://themes-pixeden.com/font-demos/7-stroke/)
-
-
-<p align="right">(<a href="#top">tagasi üles</a>)</p>
+TLÜ Haapsalu Kolledži veebiprogrammeerimse õppeiane eksami tööna loodud Wordpressi teema
 
 ### Ülesehitus
 
-1. `header.php` - lehe päise osa (head) ja peamenüü  
-2. `footer.php` - lehe jaluse osa ja social menüü näitamine
-3. `home.php` - esilehe kuvamiseks, näitab kõiki postitusi
-4. `single.php` - üksiku postituse kuvamiseks
-5. `index.php` - muude lehtede (näit. kasutustingimused jms) kuvamiseks
+1. `header.php` - lehe päise osa (head)   
+2. `footer.php` - lehe jaluse osa 
+5. `index.php` - leht postituste näitamiseks
 6. `functions.php` - teema seadistused, css laadimine
 
 ### Seadistamine
 
 1. Klooni repo wordpressi teemade kausta wp-content/themes/
    ```sh
-   git clone https://github.com/kaiusk/HKVR
+   git clone https://github.com/kaiusk/eksam
    ```
-2. Wordpressis vali uueks teemaks HKVP 
-3. Lisa uued menüüd. Lubatud on kaks menüüd - ülemine pea-menüü ja alumine jaluse menüü
-4. Lisa postitused. Lisa ka väljavõte ja pilt.
-5. Luba lisaväljad: 
+2. Wordpressis vali uueks teemaks 'eksam'
+3. Lisa töötajad kui postitused. 
+   1. Töötaja nimi on postituse pealkiri
+   2. Kirjeldus on postituse sisu
+4. Luba lisaväljad: 
    1. postituse lisamise vaates klikid paremal üleval nurgas punktidega nupul (valikud)
    2. valid viimase menüü 'Preferences'
    3. vasakult valid 'Panels'
    4. paremal all on näha 'Additional' ja selle all 'Lisaväljad'
    5. lülita nupp sisse ja salvesta 
-6. Postitustel luba lisaväljad. Lisa lisaväli 'hind' ja sellele vastav väärtus
-7. Selleks et üht postitust esile tõsta (enimmüüdud) märgi see kui "Kinnista see postitus esilehele"
-
-<p align="right">(<a href="#top">tagasi üles</a>)</p>
-
+5. Lisa lisaväli 'amet' ja sinna kirjuta töötaja amet
+6. Lisa lisaväli 'kontakt' ja sinna kirjuta töötaja emaili aadress
 
 
 <!-- CONTACT -->
@@ -54,6 +38,6 @@ TLÜ Haapsalu Kolledži veebiprogrammeerimse õppeiane raames loodud Wordpressi 
 
 Kaius Karon - [kaiusk@tlu.ee](kaiusk@tlu.ee) 
 
-Project Link: [https://github.com/kaiusk/HKVR](https://github.com/kaiusk/HKVR)
+Project Link: [https://github.com/kaiusk/eksam](https://github.com/kaiusk/eksam)
 
 <p align="right">(<a href="#top">tagasi üles</a>)</p>
