@@ -76,4 +76,12 @@ h2 {
     .item {
         flex-basis: 100%;
     }
+
+    .employee {
+        margin: 0 0 1rem 0;
+    }
+
+    .image img:hover {
+        transform: scale(1.3);
+    }
 }
